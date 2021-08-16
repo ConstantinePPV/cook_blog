@@ -1651,6 +1651,10 @@ ol {
     margin-left: 20px;
 }
 
+.sidebar__item__categories ul li ul.children {
+    margin-left: 20px;
+}
+
 .sidebar__item__categories ul li:last-child {
     padding-bottom: 0;
     margin-bottom: 0;
