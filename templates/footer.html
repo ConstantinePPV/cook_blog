@@ -1,6 +1,6 @@
-{% load static social_tags %}
+{% load static social_tags cache %}
 
-{% block content %}
+{% cache 5000 footer %}
     <footer class="footer">
         <div class="container-fluid">
             <div class="footer__instagram">
@@ -76,4 +76,4 @@
             </div>
         </div>
     </footer>
-{% endblock content %}
+{% endcache %}
